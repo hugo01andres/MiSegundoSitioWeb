@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.center-align{
+    width: 1100px;
+    margin: 0 auto;
+}
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+.section-columns{
+
+}
+.section-columns > div{
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+    
+}
+.section-columns h2{
+    font-size: 72px;
+}
+.section-columns #image-bg{
+    background-image: url('../img/header-background-michael.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px ;
+    background-position: -100px -100px;
+    height: 500px;
+}
+#intro-container{
+    background-color: black;
+    padding-top: 100px;
+
+
+}
+#intro-container menu{
+    padding: 0;
+    margin: 0;
+
+}
+#intro-container menu div{
+    display: inline-block;
+
+}
+#intro-container menu #logo{
+    width: 9%;
+    vertical-align: top;
+}
+#intro-container menu #menu-lista{
+    width: 89%;
+    text-align: right;
+}
+#intro-container menu #menu-lista ul{
+    margin: 0px;
+    padding: 0;
+}
+#intro-container menu #menu-lista ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+
+    
+}
+#intro-container menu #menu-lista ul li a{
+    color: #777;
+    text-decoration: none;
+}
+#intro-container menu #menu-lista ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
